@@ -4,6 +4,8 @@ def position_taken?(board, index)
       false
     elsif board[index] != " " || board[index] == ""
       true
+    elsif board[index] == nil
+      false
     else
       false
     end
